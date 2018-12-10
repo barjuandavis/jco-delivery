@@ -1,0 +1,95 @@
+/*
+Theme Name: JCo
+Author: Fish
+Version: 0.1
+*/
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    size: 14px;
+    color:#000000;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+/* general layout */
+
+div.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header {
+    border-bottom: 2px solid #999;
+}
+
+.site-footer {
+    border-top: 2px solid #999;
+}
+
+article.post {
+    border-bottom: 2px dotted #bbb;
+}
+
+article.post:last-of-type {
+    border-bottom: none;
+}
+
+/* Navigation menus */
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after {content:""; display: table;}
+.site-nav ul:after {clear: both;}
+.site-nav ul {*zoom: 1;}
+
+.site-nav ul li {
+    list-style: none;
+    float:left;
+}
+
+.site-header nav ul li {
+    margin: 0 10px 0 0;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    text-decoration: none;
+    transition: color 800ms, background-color 800ms;
+}
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+    background-color: #444;
+    color: #fff;
+}
+
+.site-header nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.site-footer nav ul li {
+    padding: 0 10px;
+    border-right: 1px dotted #222;
+}
+
+.site-footer nav ul li:last-of-type {
+    border-right: none;
+}
+
+/*page layout */
+
+article.page h2 {
+    font-size: 200%;
+}
