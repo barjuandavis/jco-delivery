@@ -16,7 +16,7 @@
 3. **IMPORTANT:** If you are using Windows, please update your hosts file (usually located at `C:\Windows\System32\drivers\etc`) and add `192.168.33.10  vccw.test`.
 4. Do `vagrant up`.
 5. Visit `vccw.test/wp-admin` at your browser. Administrator username is `admin` and the default password is `admin`.
-6. Open the Installed Plugins Section at **Plugins &rarr; Installed Plugins.**
+6. Open the Installed Plugins Section at **Plugins &rarr; Installed Plugins** and activate All-in-One WP Migration.
 7. Open All-in-One WP Migration at Wordpress Admin Dashboard and choose "Import".
 8. Import `backup.wpress` file that is located at `/jco-delivery/` folder. This will import all assets of the site. If there is a warning that says about you want to overwrite your website, choose **proceed**.
 9. You will be prompted to login again. Use `admin` as Username and `123456` as Password.
