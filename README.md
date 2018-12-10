@@ -3,7 +3,7 @@
 ## Authors
 
 - Barjuan Davis Penthalion (00000023971)
-- Nadya Felim Bachtiar ()
+- Nadya Felim Bachtiar (00000019602)
 
 ## Requirements
 1. Vagrant (https://www.vagrantup.com/downloads.html)
