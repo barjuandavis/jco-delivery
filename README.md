@@ -11,7 +11,7 @@
 
 ## Installation
 
-1. Pull this repository by typing `git clone https://github.com/cokpsz/jco-delivery.git`.
+1. Clone this repository by using `git clone https://github.com/cokpsz/jco-delivery.git`.
 2. Change the directory into the project folder using `cd jco-delivery`.
 3. **IMPORTANT:** If you are using Windows, please update your hosts file (usually located at `C:\Windows\System32\drivers\etc`) and add `192.168.33.10  vccw.test`.
 4. Do `vagrant up`.
