@@ -13,8 +13,10 @@
 
 1. Clone this repository by using `git clone https://github.com/cokpsz/jco-delivery.git`.
 2. Change the directory into the project folder using `cd jco-delivery`.
-3. **OPTIONAL** You may need to do `vagrant plugin install vagrant-hostsupdater`.
+3. **OPTIONAL:** You may need to do `vagrant plugin install vagrant-hostsupdater`.
+   
    **IMPORTANT:** If you are using Windows, please update your hosts file manually (usually located at `C:\Windows\System32\drivers\etc`) and add `192.168.33.10  vccw.test`.
+   
 4. Do `vagrant up`.
 5. Visit `vccw.test/wp-admin` at your browser. Administrator username is `admin` and the default password is `admin`.
 6. Open the Installed Plugins Section at **Plugins &rarr; Installed Plugins** and activate All-in-One WP Migration.
